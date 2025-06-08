@@ -218,7 +218,9 @@ body {
   border-bottom: 2px solid #DB241B;
   color: #FFFFFF;
 }
-
+.tabs input[type="radio"]:checked + label + .tab {
+    display: block;
+}
 .product {
   display: flex;
   align-items: center;
