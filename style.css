@@ -18,18 +18,12 @@ body {
     margin: 0 auto;
 }
 
-.swiper-button-prev::after {
-    font-size: 25px;
-}
-
+.swiper-button-prev::after,
 .swiper-button-next::after {
     font-size: 25px;
 }
 
-.swiper-button-next {
-    color: #DB241B;
-}
-
+.swiper-button-next,
 .swiper-button-prev {
     color: #DB241B;
 }
@@ -49,7 +43,8 @@ body {
     left: 0;
     right: 0;
     display: flex;
-    justify-content: center;
+    align-items: center; 
+    justify-content: space-between; 
     z-index: 1000;
 }
 
